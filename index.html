@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天気とジョークいいますBot</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap=swap">
+</head>
+<body>
+    <h1>天気とジョークいいますBot</h1>
+    <h3>「天気」と送信すると都市を記入する欄が表示され英語で都市名を記入し送信すると5日間の天気を表示します。</h3>
+    <h3>「ジョークを教えて」と送信するとAIがつまらないことを言います。</h3>
+    <div class="chat-container">
+        <div class="chat-log" id="chat-log"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="メッセージを入力してください...">
+            <button id="send-button">送信</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
