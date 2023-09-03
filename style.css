@@ -1,0 +1,64 @@
+/* ページ全体に関するスタイル */
+body {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* h1要素に関するスタイル */
+h1 {
+    margin: 40px 0;
+}
+
+/* チャットコンテナに関するスタイル */
+.chat-container {
+    max-width: 4000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* チャットログに関するスタイル */
+.chat-log {
+    max-height: 250px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 10px;
+    flex-grow: 1;
+    line-height: 2.2;
+    letter-spacing: 1px;
+}
+
+/* チャット入力部分に関するスタイル */
+.chat-input {
+    display: flex;
+    padding: 8px;
+    background-color: #f0f0f0;
+}
+
+/* チャット入力テキストボックスに関するスタイル */
+input[type="text"] {
+    flex: 5;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+/* 送信ボタンに関するスタイル */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
